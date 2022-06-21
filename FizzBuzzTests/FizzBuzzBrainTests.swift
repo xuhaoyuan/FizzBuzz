@@ -11,11 +11,11 @@ import XCTest
 
 class FizzBuzzTests: XCTestCase {
     
-    var fizzbuzz: FizzBuzzBrain!
+    var fizzbuzz: MFizzBuzzBrain!
     
     override func setUp() {
         super.setUp()
-        fizzbuzz = FizzBuzzBrain()
+        fizzbuzz = MFizzBuzzBrain()
     }
     
     func testIsDivisibleByThree() {

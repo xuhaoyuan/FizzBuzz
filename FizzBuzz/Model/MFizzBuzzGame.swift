@@ -1,25 +1,17 @@
-//
-//  FizzBuzzGame.swift
-//  FizzBuzz
-//
-//  Created by Yvette Cook on 22/10/2015.
-//  Copyright © 2015 YvetteCook. All rights reserved.
-//
-
 import Foundation
 
-class FizzBuzzGame: NSObject {
+class MFizzBuzzGame: NSObject {
     
-static let sharedInstance = FizzBuzzGame()
+static let sharedInstance = MFizzBuzzGame()
     
     var score : Int!
-    let brain : FizzBuzzBrain!
-    let memory : GameMemory!
+    let brain : MFizzBuzzBrain!
+    let memory : MGameMemory!
     
     override init(){
         score = 0
-        brain = FizzBuzzBrain()
-        memory = GameMemory()
+        brain = MFizzBuzzBrain()
+        memory = MGameMemory()
         super.init()
     }
     

@@ -1,14 +1,6 @@
-//
-//  FizzBuzzGameMemory.swift
-//  FizzBuzz
-//
-//  Created by Yvette Cook on 09/11/2015.
-//  Copyright © 2015 YvetteCook. All rights reserved.
-//
-
 import Foundation
 
-class GameMemory: NSObject {
+class MGameMemory: NSObject {
     
     lazy var scoreStore: ScoreStore = {
         do {

@@ -1,11 +1,3 @@
-//
-//  TutorialOneViewController.swift
-//  FizzBuzz
-//
-//  Created by Yvette Cook on 28/11/2015.
-//  Copyright © 2015 YvetteCook. All rights reserved.
-//
-
 import Foundation
 
 class TutorialOneViewController: UIViewController {
@@ -17,12 +9,12 @@ class TutorialOneViewController: UIViewController {
     @IBOutlet weak var buzzButton: UIButton!
     @IBOutlet weak var fizzBuzzButton: UIButton!
     
-    var step1: TutorialStep?
-    var step2: TutorialStep?
-    var step3: TutorialStep?
-    var step4: TutorialStep?
+    var step1: MTutorialStep?
+    var step2: MTutorialStep?
+    var step3: MTutorialStep?
+    var step4: MTutorialStep?
     
-    var steps: [TutorialStep]?
+    var steps: [MTutorialStep]?
     
     let finalStep = 15
     
@@ -38,7 +30,7 @@ class TutorialOneViewController: UIViewController {
         }
     }
     
-    var tutorialStep: TutorialStep? {
+    var tutorialStep: MTutorialStep? {
         didSet {
             guard let step = tutorialStep else { return }
             for button in step.visibleButtons {
@@ -85,7 +77,7 @@ class TutorialOneViewController: UIViewController {
     }
     
     func completedTutorial() {
-        let alert = UIAlertController(title: "Well Done", message: "Let's go play.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Great！", message: "让我们开始玩吧", preferredStyle: .alert)
         let OKAction = UIAlertAction(title: "Play", style: .default) { (action) in
             self.dismiss(animated: true)
 //            self.performSegue(withIdentifier: "unwindToHome", sender: self)
@@ -97,49 +89,49 @@ class TutorialOneViewController: UIViewController {
     }
 
     func setUpSteps() {
-        step1 = TutorialStep(
+        step1 = MTutorialStep(
             stepNumber: 0,
             numberSteps: [0,1],
             fizzSteps: nil,
             buzzSteps: nil,
             fizzBuzzSteps: nil,
-            instructions:  "Your aim is to count up as high as you can without making a mistake.",
+            instructions:  "你的目标是尽可能多地数数而不犯错误。",
             visibleButtons: [numberButton],
             hiddenButtons: [fizzButton, buzzButton, fizzBuzzButton],
             triggerStep: 2
         )
         
-        step2 = TutorialStep(
+        step2 = MTutorialStep(
             stepNumber: 1,
             numberSteps: [3],
             fizzSteps: [2],
             buzzSteps: nil,
             fizzBuzzSteps: nil,
-            instructions:  "If the next number is a multiple of 3, tap the Fizz button",
+            instructions:  "如果下一个数字是3的倍数，请轻触右上角按钮",
             visibleButtons: [numberButton, fizzButton],
             hiddenButtons: [buzzButton, fizzBuzzButton],
             triggerStep: 4
         )
         
-        step3 = TutorialStep(
+        step3 = MTutorialStep(
             stepNumber: 2,
             numberSteps: [6,7],
             fizzSteps: [5,8],
             buzzSteps: [4,9],
             fizzBuzzSteps: nil,
-            instructions:  "If the next number is a multiple of 5, tap the Buzz button",
+            instructions:  "如果下一个数字是5的倍数，请轻触左下方按钮",
             visibleButtons: [numberButton, fizzButton, buzzButton],
             hiddenButtons: [fizzBuzzButton],
             triggerStep: 10
         )
         
-        step4 = TutorialStep(
+        step4 = MTutorialStep(
             stepNumber: 3,
             numberSteps: [10,12,13],
             fizzSteps: [11],
             buzzSteps: [],
             fizzBuzzSteps: [14],
-            instructions:  "Finally, if the next number is a multiple of 3 AND 5, tap the FizzBuzz button",
+            instructions:  "最后，如果下一个数字是3和5的倍数，请点击右下方按钮",
             visibleButtons: [numberButton, fizzButton, buzzButton, fizzBuzzButton],
             hiddenButtons: [],
             triggerStep: 15
@@ -150,7 +142,7 @@ class TutorialOneViewController: UIViewController {
     
 }
 
-struct TutorialStep {
+struct MTutorialStep {
     let stepNumber: Int
 
     let numberSteps: [Int]

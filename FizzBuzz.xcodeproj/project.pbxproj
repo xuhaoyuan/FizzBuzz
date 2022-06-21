@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1A119EF51BEBF5D500F75649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A119EF41BEBF5D500F75649 /* Assets.xcassets */; };
 		1A2F46CE1C0B6C8F00CEAAB6 /* TutorialOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F46CC1C0B6C8F00CEAAB6 /* TutorialOneViewController.swift */; };
-		1A5BE61B1BE682E800FEF059 /* FizzBuzzColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BE61A1BE682E800FEF059 /* FizzBuzzColors.swift */; };
+		1A5BE61B1BE682E800FEF059 /* ColorsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BE61A1BE682E800FEF059 /* ColorsUtils.swift */; };
 		1A5BE61D1BE6898B00FEF059 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BE61C1BE6898B00FEF059 /* UIState.swift */; };
 		1A5BE6231BE692E300FEF059 /* GameMemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BE6221BE692E300FEF059 /* GameMemoryTests.swift */; };
 		1AA4697A1BD970B700341007 /* FizzBuzzGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA469791BD970B700341007 /* FizzBuzzGameTests.swift */; };
-		1AA4697C1BD9764400341007 /* FizzBuzzGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4697B1BD9764400341007 /* FizzBuzzGame.swift */; };
+		1AA4697C1BD9764400341007 /* MFizzBuzzGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4697B1BD9764400341007 /* MFizzBuzzGame.swift */; };
 		1AAE2B811BDCC92600104761 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2B801BDCC92600104761 /* ViewControllerTests.swift */; };
 		1AC19F231BD936FD003EFBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F221BD936FD003EFBCB /* AppDelegate.swift */; };
 		1AC19F251BD936FD003EFBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F241BD936FD003EFBCB /* ViewController.swift */; };
@@ -21,10 +21,10 @@
 		1AC19F2D1BD936FD003EFBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC19F2B1BD936FD003EFBCB /* LaunchScreen.storyboard */; };
 		1AC19F381BD936FE003EFBCB /* FizzBuzzBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F371BD936FE003EFBCB /* FizzBuzzBrainTests.swift */; };
 		1AC19F431BD936FE003EFBCB /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F421BD936FE003EFBCB /* FizzBuzzUITests.swift */; };
-		1AC19F521BD9389F003EFBCB /* FizzBuzzBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F511BD9389F003EFBCB /* FizzBuzzBrain.swift */; };
+		1AC19F521BD9389F003EFBCB /* MFizzBuzzBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC19F511BD9389F003EFBCB /* MFizzBuzzBrain.swift */; };
 		1AC8ACCE1BE129C7004B7090 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8ACCD1BE129C7004B7090 /* ViewModel.swift */; };
 		1AC8ACD11BE12D07004B7090 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8ACD01BE12D07004B7090 /* ViewModelTests.swift */; };
-		1ACA267B1BF155A200F82AF9 /* FizzBuzzGameMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA267A1BF155A200F82AF9 /* FizzBuzzGameMemory.swift */; };
+		1ACA267B1BF155A200F82AF9 /* MFizzBuzzGameMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA267A1BF155A200F82AF9 /* MFizzBuzzGameMemory.swift */; };
 		9DB1FE7D4E7793D0C4EF8260 /* Pods_FizzBuzz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2629C84A142A86D6BA5445A /* Pods_FizzBuzz.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +49,11 @@
 		175618F8285881B000AC172A /* FizzBuzz-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FizzBuzz-Bridging-Header.h"; sourceTree = "<group>"; };
 		1A119EF41BEBF5D500F75649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A2F46CC1C0B6C8F00CEAAB6 /* TutorialOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialOneViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		1A5BE61A1BE682E800FEF059 /* FizzBuzzColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzColors.swift; sourceTree = "<group>"; };
+		1A5BE61A1BE682E800FEF059 /* ColorsUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsUtils.swift; sourceTree = "<group>"; };
 		1A5BE61C1BE6898B00FEF059 /* UIState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
 		1A5BE6221BE692E300FEF059 /* GameMemoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMemoryTests.swift; sourceTree = "<group>"; };
 		1AA469791BD970B700341007 /* FizzBuzzGameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzGameTests.swift; sourceTree = "<group>"; };
-		1AA4697B1BD9764400341007 /* FizzBuzzGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FizzBuzzGame.swift; path = Model/FizzBuzzGame.swift; sourceTree = "<group>"; };
+		1AA4697B1BD9764400341007 /* MFizzBuzzGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MFizzBuzzGame.swift; path = Model/MFizzBuzzGame.swift; sourceTree = "<group>"; };
 		1AAE2B801BDCC92600104761 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		1AC19F1F1BD936FD003EFBCB /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC19F221BD936FD003EFBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,10 +67,10 @@
 		1AC19F3E1BD936FE003EFBCB /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC19F421BD936FE003EFBCB /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		1AC19F441BD936FE003EFBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC19F511BD9389F003EFBCB /* FizzBuzzBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FizzBuzzBrain.swift; path = Model/FizzBuzzBrain.swift; sourceTree = "<group>"; };
+		1AC19F511BD9389F003EFBCB /* MFizzBuzzBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MFizzBuzzBrain.swift; path = Model/MFizzBuzzBrain.swift; sourceTree = "<group>"; };
 		1AC8ACCD1BE129C7004B7090 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = ViewModel/ViewModel.swift; sourceTree = "<group>"; };
 		1AC8ACD01BE12D07004B7090 /* ViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
-		1ACA267A1BF155A200F82AF9 /* FizzBuzzGameMemory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FizzBuzzGameMemory.swift; path = Model/FizzBuzzGameMemory.swift; sourceTree = "<group>"; };
+		1ACA267A1BF155A200F82AF9 /* MFizzBuzzGameMemory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MFizzBuzzGameMemory.swift; path = Model/MFizzBuzzGameMemory.swift; sourceTree = "<group>"; };
 		A2629C84A142A86D6BA5445A /* Pods_FizzBuzz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FizzBuzz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDE0CF78C72CF8FF4CF2C34 /* Pods-FizzBuzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.debug.xcconfig"; path = "Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FB5BB066FAEA5E20AFADA1 /* Pods-FizzBuzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.release.xcconfig"; path = "Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		1A5BE6191BE682CE00FEF059 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				1A5BE61A1BE682E800FEF059 /* FizzBuzzColors.swift */,
+				1A5BE61A1BE682E800FEF059 /* ColorsUtils.swift */,
 				1A5BE61C1BE6898B00FEF059 /* UIState.swift */,
 			);
 			name = Helpers;
@@ -206,9 +206,9 @@
 		1AC19F501BD93887003EFBCB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1AC19F511BD9389F003EFBCB /* FizzBuzzBrain.swift */,
-				1AA4697B1BD9764400341007 /* FizzBuzzGame.swift */,
-				1ACA267A1BF155A200F82AF9 /* FizzBuzzGameMemory.swift */,
+				1AC19F511BD9389F003EFBCB /* MFizzBuzzBrain.swift */,
+				1AA4697B1BD9764400341007 /* MFizzBuzzGame.swift */,
+				1ACA267A1BF155A200F82AF9 /* MFizzBuzzGameMemory.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -439,12 +439,12 @@
 				1AC8ACCE1BE129C7004B7090 /* ViewModel.swift in Sources */,
 				1AC19F251BD936FD003EFBCB /* ViewController.swift in Sources */,
 				1AC19F231BD936FD003EFBCB /* AppDelegate.swift in Sources */,
-				1AC19F521BD9389F003EFBCB /* FizzBuzzBrain.swift in Sources */,
-				1ACA267B1BF155A200F82AF9 /* FizzBuzzGameMemory.swift in Sources */,
-				1AA4697C1BD9764400341007 /* FizzBuzzGame.swift in Sources */,
+				1AC19F521BD9389F003EFBCB /* MFizzBuzzBrain.swift in Sources */,
+				1ACA267B1BF155A200F82AF9 /* MFizzBuzzGameMemory.swift in Sources */,
+				1AA4697C1BD9764400341007 /* MFizzBuzzGame.swift in Sources */,
 				1A5BE61D1BE6898B00FEF059 /* UIState.swift in Sources */,
 				1A2F46CE1C0B6C8F00CEAAB6 /* TutorialOneViewController.swift in Sources */,
-				1A5BE61B1BE682E800FEF059 /* FizzBuzzColors.swift in Sources */,
+				1A5BE61B1BE682E800FEF059 /* ColorsUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

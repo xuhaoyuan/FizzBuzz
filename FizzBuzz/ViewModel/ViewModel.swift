@@ -1,16 +1,8 @@
-//
-//  ViewModel.swift
-//  FizzBuzz
-//
-//  Created by Yvette Cook on 28/10/2015.
-//  Copyright © 2015 YvetteCook. All rights reserved.
-//
-
 import UIKit
 
 class ViewModel {
     
-    let game : FizzBuzzGame!
+    let game : MFizzBuzzGame!
     var vc : ViewController! {
         didSet {
             updateHighScore()
@@ -18,7 +10,7 @@ class ViewModel {
     }
     
     init() {
-        self.game = FizzBuzzGame.sharedInstance
+        self.game = MFizzBuzzGame.sharedInstance
     }
     
     func checkMove(move: Moves) {

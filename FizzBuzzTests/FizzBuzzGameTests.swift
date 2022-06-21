@@ -11,11 +11,11 @@ import XCTest
 
 class FizzBuzzGameTests: XCTestCase {
     
-    var fizzbuzzGame : FizzBuzzGame!
+    var fizzbuzzGame : MFizzBuzzGame!
 
     override func setUp() {
         super.setUp()
-        fizzbuzzGame = FizzBuzzGame()
+        fizzbuzzGame = MFizzBuzzGame()
     }
     
     override func tearDown() {

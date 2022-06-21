@@ -89,19 +89,19 @@ class ViewController: UIViewController {
     func toggleState() {
         switch state {
         case .Ready:
-            setBackgroundColorTo(color: FizzBuzzColors.readyBackgroundColor)
+            setBackgroundColorTo(color: ColorsUtils.readyBackgroundColor)
             enablePlayButtons()
             showSettingsButtons()
             showFizzBuzzButtons()
         case .Playing:
             setUpFluidLayer()
             startTimer()
-            setBackgroundColorTo(color: FizzBuzzColors.activeBackgroundColor)
+            setBackgroundColorTo(color: ColorsUtils.activeBackgroundColor)
             enablePlayButtons()
             showFizzBuzzButtons()
             hideSettingsButtons()
         case .Lost:
-            setBackgroundColorTo(color: FizzBuzzColors.lostBackgroundColor)
+            setBackgroundColorTo(color: ColorsUtils.lostBackgroundColor)
             disablePlayButtons()
             showSettingsButtons()
             removeFluidView()
@@ -177,7 +177,7 @@ extension ViewController {
         fluidView = BAFluidView(frame: self.background.frame, startElevation: 0.0)
         fluidView.fillDuration = gameTime
         fluidView.fill(to: 0.983)
-        fluidView.fillColor = FizzBuzzColors.timerBackgroundColor
+        fluidView.fillColor = ColorsUtils.timerBackgroundColor
         fluidView.fillRepeatCount = 1
         fluidView.fillAutoReverse = false
         self.background.addSubview(fluidView)

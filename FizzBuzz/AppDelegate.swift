@@ -12,10 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var game: FizzBuzzGame?
+    var game: MFizzBuzzGame?
 
     private func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        game = FizzBuzzGame.sharedInstance
+        game = MFizzBuzzGame.sharedInstance
         return true
     }
 
